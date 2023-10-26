@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f7ed0bf4-df0d-4c79-a857-dad16b9ae9cb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 107.315 38.1) (size 32.385 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4d59e641-0df2-4e8d-86b4-0b6c52421e14)
+    (property "Sheetname" "MCU" (at 107.315 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 107.315 74.8796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Major Project"
+        (path "/f7ed0bf4-df0d-4c79-a857-dad16b9ae9cb" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 39.37) (size 31.75 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ed4d2ad8-1047-464f-8d74-6812794bb4e4)
+    (property "Sheetname" "Sensing" (at 43.18 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensing.kicad_sch" (at 43.18 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Major Project"
+        (path "/f7ed0bf4-df0d-4c79-a857-dad16b9ae9cb" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
